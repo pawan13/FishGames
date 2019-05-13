@@ -225,11 +225,11 @@ public class FlyingFishView extends View
             }
             if (score > 25 && score <= 50)
             {
-                fishSpeed = -20;
+                fishSpeed = -15;
             }
             if (score > 50 )
             {
-                fishSpeed = -18;
+                fishSpeed = -10;
             }
         }
         return true;
